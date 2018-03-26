@@ -10,12 +10,12 @@
 		8E22ADCE206362CC00027CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22ADCD206362CC00027CF1 /* AppDelegate.swift */; };
 		8E22ADD0206362CC00027CF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22ADCF206362CC00027CF1 /* ViewController.swift */; };
 		8E22ADD3206362CC00027CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ADD1206362CC00027CF1 /* Main.storyboard */; };
+		8E22ADD5206362CC00027CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ADD4206362CC00027CF1 /* Assets.xcassets */; };
 		8E22ADD8206362CC00027CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ADD6206362CC00027CF1 /* LaunchScreen.storyboard */; };
 		8E22ADE02063678300027CF1 /* deliveries-sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ADDF2063678300027CF1 /* deliveries-sample.json */; };
 		8E22ADE22064046A00027CF1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22ADE12064046900027CF1 /* File.swift */; };
 		8E22ADF9206874D700027CF1 /* FoodsbyCodeChallengeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22ADF8206874D700027CF1 /* FoodsbyCodeChallengeTest.swift */; };
 		8E22AE012068765D00027CF1 /* Foodsby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22AE002068765D00027CF1 /* Foodsby.swift */; };
-		8E22B66A2068976100BA1932 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E22B6692068976100BA1932 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,7 @@
 		8E22ADCD206362CC00027CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E22ADCF206362CC00027CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		8E22ADD2206362CC00027CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E22ADD4206362CC00027CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E22ADD7206362CC00027CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E22ADD9206362CC00027CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E22ADDF2063678300027CF1 /* deliveries-sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "deliveries-sample.json"; path = "../../../Downloads/Foodsby - Code Challenge/deliveries-sample.json"; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		8E22ADF8206874D700027CF1 /* FoodsbyCodeChallengeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsbyCodeChallengeTest.swift; sourceTree = "<group>"; };
 		8E22ADFA206874D700027CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E22AE002068765D00027CF1 /* Foodsby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodsby.swift; sourceTree = "<group>"; };
-		8E22B6692068976100BA1932 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,6 @@
 		8E22ADC1206362CB00027CF1 = {
 			isa = PBXGroup;
 			children = (
-				8E22B6692068976100BA1932 /* Default-568h@2x.png */,
 				8E22ADCC206362CC00027CF1 /* FoodsbyCodeChallenge */,
 				8E22ADF7206874D600027CF1 /* FoodsbyCodeChallengeTest */,
 				8E22ADCB206362CC00027CF1 /* Products */,
@@ -106,6 +105,7 @@
 				8E22ADE12064046900027CF1 /* File.swift */,
 				8E22ADDF2063678300027CF1 /* deliveries-sample.json */,
 				8E22ADD1206362CC00027CF1 /* Main.storyboard */,
+				8E22ADD4206362CC00027CF1 /* Assets.xcassets */,
 				8E22ADD6206362CC00027CF1 /* LaunchScreen.storyboard */,
 				8E22ADD9206362CC00027CF1 /* Info.plist */,
 			);
@@ -230,7 +230,7 @@
 			files = (
 				8E22ADD8206362CC00027CF1 /* LaunchScreen.storyboard in Resources */,
 				8E22ADE02063678300027CF1 /* deliveries-sample.json in Resources */,
-				8E22B66A2068976100BA1932 /* Default-568h@2x.png in Resources */,
+				8E22ADD5206362CC00027CF1 /* Assets.xcassets in Resources */,
 				8E22ADD3206362CC00027CF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
