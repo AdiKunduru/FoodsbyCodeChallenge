@@ -10,12 +10,14 @@
 		8E22ADCE206362CC00027CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22ADCD206362CC00027CF1 /* AppDelegate.swift */; };
 		8E22ADD0206362CC00027CF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22ADCF206362CC00027CF1 /* ViewController.swift */; };
 		8E22ADD3206362CC00027CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ADD1206362CC00027CF1 /* Main.storyboard */; };
-		8E22ADD5206362CC00027CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ADD4206362CC00027CF1 /* Assets.xcassets */; };
+		8E22ADD5206362CC00027CF1 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ADD4206362CC00027CF1 /* Contents.json */; };
 		8E22ADD8206362CC00027CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ADD6206362CC00027CF1 /* LaunchScreen.storyboard */; };
 		8E22ADE02063678300027CF1 /* deliveries-sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ADDF2063678300027CF1 /* deliveries-sample.json */; };
 		8E22ADE22064046A00027CF1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22ADE12064046900027CF1 /* File.swift */; };
 		8E22ADF9206874D700027CF1 /* FoodsbyCodeChallengeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22ADF8206874D700027CF1 /* FoodsbyCodeChallengeTest.swift */; };
 		8E22AE012068765D00027CF1 /* Foodsby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22AE002068765D00027CF1 /* Foodsby.swift */; };
+		8E3CAEE220689C9100ECDD18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3CAEE120689C9000ECDD18 /* Default-568h@2x.png */; };
+		8E3CAEE320689FD500ECDD18 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ADD9206362CC00027CF1 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,19 +39,20 @@
 
 /* Begin PBXFileReference section */
 		8E22ADCA206362CC00027CF1 /* FoodsbyCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodsbyCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E22ADCD206362CC00027CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E22ADCF206362CC00027CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		8E22ADCD206362CC00027CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = /Users/Aditya1/Documents/GitHub/FoodsbyCodeChallenge/FoodbyCodeChallenge/AppDelegate.swift; sourceTree = "<absolute>"; };
+		8E22ADCF206362CC00027CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = /Users/Aditya1/Documents/GitHub/FoodsbyCodeChallenge/FoodbyCodeChallenge/ViewController.swift; sourceTree = "<absolute>"; wrapsLines = 1; };
 		8E22ADD2206362CC00027CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E22ADD4206362CC00027CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E22ADD4206362CC00027CF1 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents.json; path = /Users/Aditya1/Documents/GitHub/FoodsbyCodeChallenge/FoodbyCodeChallenge/Assets.xcassets/AppIcon.appiconset/Contents.json; sourceTree = "<absolute>"; };
 		8E22ADD7206362CC00027CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8E22ADD9206362CC00027CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E22ADDF2063678300027CF1 /* deliveries-sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "deliveries-sample.json"; path = "../../../Downloads/Foodsby - Code Challenge/deliveries-sample.json"; sourceTree = "<group>"; };
-		8E22ADE12064046900027CF1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		8E22ADD9206362CC00027CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/Aditya1/Documents/GitHub/FoodsbyCodeChallenge/FoodbyCodeChallenge/Info.plist; sourceTree = "<absolute>"; };
+		8E22ADDF2063678300027CF1 /* deliveries-sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "deliveries-sample.json"; path = "/Users/Aditya1/Downloads/Foodsby - Code Challenge/deliveries-sample.json"; sourceTree = "<absolute>"; };
+		8E22ADE12064046900027CF1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = /Users/Aditya1/Documents/GitHub/FoodsbyCodeChallenge/FoodbyCodeChallenge/File.swift; sourceTree = "<absolute>"; };
 		8E22ADE82068406A00027CF1 /* FoodsbyCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodsbyCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E22ADF6206874D600027CF1 /* FoodsbyCodeChallengeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodsbyCodeChallengeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E22ADF8206874D700027CF1 /* FoodsbyCodeChallengeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsbyCodeChallengeTest.swift; sourceTree = "<group>"; };
 		8E22ADFA206874D700027CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E22AE002068765D00027CF1 /* Foodsby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodsby.swift; sourceTree = "<group>"; };
+		8E22AE002068765D00027CF1 /* Foodsby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Foodsby.swift; path = /Users/Aditya1/Documents/GitHub/FoodsbyCodeChallenge/FoodbyCodeChallenge/Foodsby.swift; sourceTree = "<absolute>"; };
+		8E3CAEE120689C9000ECDD18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 		8E22ADC1206362CB00027CF1 = {
 			isa = PBXGroup;
 			children = (
+				8E3CAEE120689C9000ECDD18 /* Default-568h@2x.png */,
 				8E22ADCC206362CC00027CF1 /* FoodsbyCodeChallenge */,
 				8E22ADF7206874D600027CF1 /* FoodsbyCodeChallengeTest */,
 				8E22ADCB206362CC00027CF1 /* Products */,
@@ -105,12 +109,13 @@
 				8E22ADE12064046900027CF1 /* File.swift */,
 				8E22ADDF2063678300027CF1 /* deliveries-sample.json */,
 				8E22ADD1206362CC00027CF1 /* Main.storyboard */,
-				8E22ADD4206362CC00027CF1 /* Assets.xcassets */,
+				8E22ADD4206362CC00027CF1 /* Contents.json */,
 				8E22ADD6206362CC00027CF1 /* LaunchScreen.storyboard */,
 				8E22ADD9206362CC00027CF1 /* Info.plist */,
 			);
-			path = FoodsbyCodeChallenge;
-			sourceTree = "<group>";
+			name = FoodsbyCodeChallenge;
+			path = /Users/Aditya1/Documents/GitHub/FoodsbyCodeChallenge/FoodbyCodeChallenge;
+			sourceTree = "<absolute>";
 		};
 		8E22ADF7206874D600027CF1 /* FoodsbyCodeChallengeTest */ = {
 			isa = PBXGroup;
@@ -230,7 +235,9 @@
 			files = (
 				8E22ADD8206362CC00027CF1 /* LaunchScreen.storyboard in Resources */,
 				8E22ADE02063678300027CF1 /* deliveries-sample.json in Resources */,
-				8E22ADD5206362CC00027CF1 /* Assets.xcassets in Resources */,
+				8E3CAEE320689FD500ECDD18 /* Info.plist in Resources */,
+				8E22ADD5206362CC00027CF1 /* Contents.json in Resources */,
+				8E3CAEE220689C9100ECDD18 /* Default-568h@2x.png in Resources */,
 				8E22ADD3206362CC00027CF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
